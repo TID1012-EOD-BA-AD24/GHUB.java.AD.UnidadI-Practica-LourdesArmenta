@@ -7,8 +7,9 @@ public class Rational{
         this.r[1] = 1;
     }
 
-    public Rational(int[] r) {
-        this.r = r;
+    public Rational(int a, int b) {
+        this.r[0] = a;
+        this.r[1] = b;
     }
 
     public int getNumerador(){
@@ -29,21 +30,30 @@ public class Rational{
     
     public Rational add(Rational a, Rational b){
         Rational x = new Rational();
-        x.setNumerador(a.getDenominador()* b.getNumerador() + b.getDenominador() * b.getNumerador());
+        x.setNumerador(a.getNumerador()* b.getDenominador() + a.getDenominador() * b.getNumerador());
         x.setDenominador(a.getDenominador()*b.getDenominador());
         return x;
                    
     }
 
-    
+    public Rational mult(Rational a, Rational b){
+        Rational x = new Rational();
+        x.setNumerador(a.getNumerador()*b.getNumerador());
+        x.setDenominador(b.getDenominador()*b.getDenominador());
+        return x;
 
-    
-    
-    
+    }
 
-   
-    
+    public boolean equal(Rational a, Rational b){
+        return (a.getNumerador()*b.getDenominador() ==
+                a.getDenominador()*b.getNumerador());
 
+    }
+
+    @Override
+    public String toString(){
+        return this.r[0]+"/"+this.r[1];
+    }
 
 
 }
