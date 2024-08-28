@@ -7,7 +7,7 @@ public class Principal {
 
     public static void main(String[] args) {
         //System.out.println(new Principal().getGreeting());
-        Rational r1 = new Rational(5,3);
+        Rational r1 = new Rational(5,4);
         Rational r2 = new Rational(2,3);
         Rational r = new Rational();
         r = r1.add(r1, r2);
@@ -24,6 +24,9 @@ public class Principal {
         System.out.println("El resultado de la comparacion es "+r.equal(r3, r));
 
         System.out.println();
+
+        Rational r5 = new Rational(2,3);
+
 
 
 

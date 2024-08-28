@@ -39,7 +39,7 @@ public class Rational{
     public Rational mult(Rational a, Rational b){
         Rational x = new Rational();
         x.setNumerador(a.getNumerador()*b.getNumerador());
-        x.setDenominador(b.getDenominador()*b.getDenominador());
+        x.setDenominador(a.getDenominador()*b.getDenominador());
         return x;
 
     }
