@@ -2,3 +2,5 @@
 ./miPrincipal/Conjunto.java
 ./miPrincipal/Principal.java
 ./miPrincipal/Rational.java
+./miPrincipal/AppRational.java
+./miPrincipal/AppConjunto.java

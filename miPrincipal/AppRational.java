@@ -1,0 +1,22 @@
+package miPrincipal;
+public class AppRational{
+    public static void menu(){
+        System.out.println("***********************************");
+        System.out.println(" OPERACIONES CON NUMERO RACIONALES ");
+        System.out.println("***********************************");
+        Rational r1 = new Rational(5,4);
+        Rational r2 = new Rational(2,3);
+        Rational r = new Rational();
+        r = r1.add(r1, r2);
+        System.out.println("El resultado de la suma = "+r);
+        Rational r4 = new Rational();
+        r4 = r1.mult(r1, r2);
+        System.out.println("El resultado de la multiplicacion = "+r4);
+        Rational r3 = new Rational(7,3);
+        System.out.println("El resultado de la comparacion es "+r.equal(r3, r));
+
+        System.out.println();
+
+        Rational r5 = new Rational(2,3);
+    }
+}

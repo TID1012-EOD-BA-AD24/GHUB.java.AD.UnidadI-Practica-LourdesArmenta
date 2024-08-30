@@ -47,6 +47,10 @@ public class Conjunto{
         
     }
 
+    public int getCardinal(){
+        return cardinal;
+    }
+
 
 
 
