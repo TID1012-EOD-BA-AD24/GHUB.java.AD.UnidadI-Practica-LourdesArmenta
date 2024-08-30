@@ -26,7 +26,9 @@ public class Conjunto{
         return encontrado;
     }
     //añadir un elemento si no esta en el conjunto
-    public Conjunto añadir(Object elemento){
+    public void añadir(Object elemento){
+        
+    
         if (!pertenece(elemento)){
             /*
              * verificar su hay posiciones libres
@@ -39,11 +41,10 @@ public class Conjunto{
                     nuevoCto[k]=cto[k];
                 }
                 cto = nuevoCto;
- 
             }
-            cto[cardinal++]=elemento;
-            
+            cto[cardinal++]=elemento; 
         }
+        
     }
 
 
