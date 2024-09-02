@@ -1,6 +1,8 @@
 ./miTest/AppTest.java
 ./miPrincipal/Conjunto.java
 ./miPrincipal/Principal.java
+./miPrincipal/Punto.java
+./miPrincipal/AppPunto.java
 ./miPrincipal/Rational.java
 ./miPrincipal/AppRational.java
 ./miPrincipal/AppConjunto.java

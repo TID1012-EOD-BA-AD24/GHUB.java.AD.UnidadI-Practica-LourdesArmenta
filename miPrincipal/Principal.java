@@ -43,6 +43,8 @@ public class Principal {
                 case 7:
                 case 8:
                 case 9:
+                   AppPunto.menu();
+                   break;
                 case 10:
                 case 11:
                 case 0:
