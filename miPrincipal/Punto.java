@@ -15,6 +15,14 @@ public class Punto {
         this.x = 0;
         this.y = 0;
     }
+
+    public double distancia(Punto p){
+        double d;
+        d = Math.sqrt(Math.pow(p.getX()-this.getX(),2) + 
+                      Math.pow(p.getY()-this.getY(),2));
+        return d;
+
+    }
     public int getX(){
         return x;
     }

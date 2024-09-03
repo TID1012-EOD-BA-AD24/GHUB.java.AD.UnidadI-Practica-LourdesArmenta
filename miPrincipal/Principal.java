@@ -6,7 +6,7 @@ public class Principal {
         return "Hola Mundo!";
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws PosicionIlegalException {
         //System.out.println(new Principal().getGreeting());
         Scanner consola = new Scanner(System.in);
         int opc=0;

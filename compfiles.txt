@@ -1,8 +1,11 @@
 ./miTest/AppTest.java
+./miPrincipal/AppTriangulo.java
 ./miPrincipal/Conjunto.java
 ./miPrincipal/Principal.java
+./miPrincipal/PosicionIlegalException.java
 ./miPrincipal/Punto.java
 ./miPrincipal/AppPunto.java
 ./miPrincipal/Rational.java
 ./miPrincipal/AppRational.java
+./miPrincipal/Triangulo.java
 ./miPrincipal/AppConjunto.java

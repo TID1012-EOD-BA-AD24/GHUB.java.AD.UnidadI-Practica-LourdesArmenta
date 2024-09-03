@@ -1,6 +1,6 @@
 package miPrincipal;
 public class AppRational{
-    public static void menu(){
+    public static void menu() throws PosicionIlegalException{
         System.out.println("***********************************");
         System.out.println(" OPERACIONES CON NUMERO RACIONALES ");
         System.out.println("***********************************");
@@ -17,6 +17,11 @@ public class AppRational{
 
         System.out.println();
 
+        //Rational r5 = new Rational(2,0); // No es posible un racional con denominador
         Rational r5 = new Rational(2,3);
+        Rational r6 = new Rational(3,2); // cero
+        System.out.println("Racional r5="+r5);
+        System.out.println("El resultado de la suma de r5+r6 = "+r5.add(r5,r6));
+        System.out.println("El resultado de la mult de r5*r6 = "+r5.mult(r5,r6));
     }
 }
