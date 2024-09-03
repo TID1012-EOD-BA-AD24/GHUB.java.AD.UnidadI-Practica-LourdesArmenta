@@ -15,6 +15,4 @@ public class Triangulo{
         longLados[2]=v3.distancia(v1);
         return longLados;
     }
-
-
 }

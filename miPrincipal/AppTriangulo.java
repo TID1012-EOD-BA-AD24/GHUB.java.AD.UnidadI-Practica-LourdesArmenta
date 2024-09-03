@@ -12,7 +12,7 @@ public class AppTriangulo{
         lados=t1.longuitudes();
         System.out.println("Lado 1= "+lados[0]);
         System.out.println("Lado 2= "+lados[1]);
-        System.out.println("Lado 3= "+lados[3]);
+        System.out.println("Lado 3= "+lados[2]);
 
 
 
